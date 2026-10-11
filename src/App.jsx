@@ -182,7 +182,7 @@ export default function App() {
           </motion.p>
 
           <motion.div variants={fadeUp} className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center">
-            <a href="#contact" className="w-full sm:w-auto h-12 px-8 flex items-center justify-center rounded-md bg-white border border-zinc-800 text-zinc-900 font-semibold text-sm hover:bg-zinc-200 transition-colors">
+            <a href="#contact" className="w-full sm:w-auto h-12 px-8 flex items-center justify-center rounded-md bg-white border border-zinc-800 text-zinc-900 font-bold text-sm hover:bg-zinc-200 transition-colors">
               Get in Touch
             </a>
             <a href="https://www.linkedin.com/in/shaikhaamir642" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto h-12 px-8 flex items-center justify-center rounded-md bg-white text-zinc-900 font-bold text-sm hover:bg-zinc-200 transition-colors shadow-lg shadow-white/10 gap-2.5">
@@ -378,7 +378,7 @@ export default function App() {
         >
           <div className="absolute top-0 right-0 w-72 h-72 bg-amber-500/10 blur-[80px] rounded-full pointer-events-none -translate-y-1/2 translate-x-1/2"></div>
           
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-16 relative z-10">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-14 relative z-10">
             <div className="text-left">
               <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 tracking-tight mb-4">Let's build together.</h2>
               <p className="text-zinc-600 text-lg max-w-md">I am currently open for full-time engineering roles. Let's discuss how I can bring value to your team.</p>
